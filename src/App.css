@@ -1,0 +1,11 @@
+body {
+  background: rgb(244, 209, 97);
+  background: linear-gradient(90deg, rgba(244, 209, 97, 1) 0%, rgba(244, 209, 97, 1) 35%, rgba(250, 237, 170, 1) 100%);
+}
+.App {
+  text-align: center;
+}
+
+img {
+  width: 15%;
+}

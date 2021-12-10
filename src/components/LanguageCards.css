@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.container {
+  background-color: #f48b29;
+  width: 40%;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.card-container {
+  background-color: #f48b29;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card-childs-container {
+  width: 40%;
+}
+
+.cards {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 10rem;
+}
+.title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1em;
+  padding: 0.5rem;
+  text-align: center;
+  color: black;
+}
+.title h2 {
+  margin: 0;
+}
+.cards img {
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+  border-radius: 7px;
+  filter: grayscale(0%);
+}
+.cards img:hover {
+  transform: scale(1.2);
+}
+.cards .list {
+  text-align: left;
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+}
